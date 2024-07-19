@@ -19,7 +19,7 @@
 
 const calcularAreaTriangulo = (base, altura) =>
   ((base * altura) / 2).toFixed(3);
-const calcularAreaCirculo = (raio) => (3.14159 * Math.pow(raio, 3)).toFixed(3);
+const calcularAreaCirculo = (raio) => (3.14159 * Math.pow(raio, 2)).toFixed(3); // So alterei o 3 para 2, pois estava calculando o cubo
 const calcularAreaTrapezio = (baseMaior, baseMenor, altura) =>
   (((baseMaior + baseMenor) * altura) / 2).toFixed(3);
 const calcularAreaQuadrado = (lado) => (lado * lado).toFixed(3);
